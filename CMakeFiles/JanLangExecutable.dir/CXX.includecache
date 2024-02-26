@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jan/Documents/jan-programming-language/src/Tokenization.cpp
+iostream
+-
+Tokenization.hpp
+/home/jan/Documents/jan-programming-language/src/Tokenization.hpp
+
+/home/jan/Documents/jan-programming-language/src/Tokenization.hpp
+regex
+-
+map
+-
+

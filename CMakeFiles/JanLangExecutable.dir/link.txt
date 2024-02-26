@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/JanLangExecutable.dir/src/Main.cpp.o CMakeFiles/JanLangExecutable.dir/src/Tokenization.cpp.o  -o JanLangExecutable 

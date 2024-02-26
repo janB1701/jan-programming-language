@@ -1,0 +1,3 @@
+/home/jan/Documents/jan-programming-language/CMakeFiles/rebuild_cache.dir
+/home/jan/Documents/jan-programming-language/CMakeFiles/edit_cache.dir
+/home/jan/Documents/jan-programming-language/CMakeFiles/JanLangExecutable.dir
