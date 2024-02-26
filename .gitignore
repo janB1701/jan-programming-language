@@ -1,0 +1,10 @@
+build/
+demo.cpp
+demo
+
+*.o
+*.a
+*.so
+
+.vscode/
+.idea/
