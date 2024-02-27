@@ -8,3 +8,7 @@ demo
 
 .vscode/
 .idea/
+
+Makefile
+cmake_install.cmake
+CMakeCache.txt
