@@ -1,19 +1,11 @@
 #include "Tokenization.hpp"
 #include <iostream>
 
-class Main {
-    public:
-        void run () {
-            //Tokenization tokenizer;
-
-            Tokens::TokenType tokenType = Tokens::getTokenType ("if");
-
-            std::cout << "Token type: " << tokenType << std::endl;
-        }
-};
-
 int main () {
-    Main main;
-    main.run();
+    Tokenizer tokenizer;
+
+    Tokenizer::TokenType tokenType = tokenizer.getTokenType ("if");
+
+    std::cout << "Token type: " << tokenType << std::endl;
     return 0;
 }

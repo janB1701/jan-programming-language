@@ -4,8 +4,18 @@
 #include <regex>
 #include <map>
 
+struct Token {
+    enum Type {
+        Identifier,
+        Operator,
+        Keyword,
+    };
 
-class Tokens {
+    Type type;
+    std::string value;
+};
+
+class Tokenizer {
 public:
     enum TokenType {
         Whitespace,
@@ -20,7 +30,14 @@ public:
 
     static std::map<TokenType, std::regex> TokenRegex;
 
-    static TokenType getTokenType (const std::string& token);
+    TokenType getTokenType (const std::string& token);
+    
+    void tokenize(const std::string &input);
+
+    std::vector<Token> getTokens();
+
+    private:
+    std::vector<Token> _tokens;
 };
 
 #endif
